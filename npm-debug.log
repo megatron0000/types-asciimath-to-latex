@@ -1,0 +1,107 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/vitor/.nvm/versions/node/v6.11.3/bin/node',
+1 verbose cli   '/home/vitor/.nvm/versions/node/v6.11.3/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/media/vitor/000F8EFA0002DB72/Programming/projetos/utils/types/asciimath-to-latex',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/vitor/.npm/@types/asciimath-to-latex/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /home/vitor/.npm correctMkdir not in flight; initializing
+10 info lifecycle @types/asciimath-to-latex@1.0.0~prepublish: @types/asciimath-to-latex@1.0.0
+11 silly lifecycle @types/asciimath-to-latex@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/home/vitor/.npm/@types/asciimath-to-latex/1.0.0/package.tgz',
+12 verbose tar pack   '/media/vitor/000F8EFA0002DB72/Programming/projetos/utils/types/asciimath-to-latex' ]
+13 verbose tarball /home/vitor/.npm/@types/asciimath-to-latex/1.0.0/package.tgz
+14 verbose folder /media/vitor/000F8EFA0002DB72/Programming/projetos/utils/types/asciimath-to-latex
+15 verbose addLocalTarball adding from inside cache /home/vitor/.npm/@types/asciimath-to-latex/1.0.0/package.tgz
+16 verbose correctMkdir /home/vitor/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd @types/asciimath-to-latex@1.0.0
+18 verbose afterAdd /home/vitor/.npm/@types/asciimath-to-latex/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /home/vitor/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /home/vitor/.npm/@types/asciimath-to-latex/1.0.0/package/package.json written
+21 silly publish { name: '@types/asciimath-to-latex',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: '',
+21 silly publish   main: 'index.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   author: '',
+21 silly publish   license: 'MIT',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/megatron0000/types-asciimath-to-latex.git' },
+21 silly publish   bugs: { url: 'https://github.com/megatron0000/types-asciimath-to-latex/issues' },
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   homepage: 'https://github.com/megatron0000/types-asciimath-to-latex#readme',
+21 silly publish   _id: '@types/asciimath-to-latex@1.0.0',
+21 silly publish   _shasum: 'fd76c042a0941663361ddd2db1242bdf95cf7792',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @types/asciimath-to-latex
+24 silly mapToRegistry scope (from package name) @types
+25 verbose mapToRegistry no registry URL found in name for scope @types
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@types/asciimath-to-latex',
+28 silly mapToRegistry   scope: '@types',
+28 silly mapToRegistry   escapedName: '@types%2fasciimath-to-latex',
+28 silly mapToRegistry   name: '@types/asciimath-to-latex',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@types%2fasciimath-to-latex
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading /home/vitor/.npm/@types/asciimath-to-latex/1.0.0/package.tgz
+32 verbose request uri https://registry.npmjs.org/@types%2fasciimath-to-latex
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 4:15:08 PM
+35 verbose request using bearer token for auth
+36 verbose request id 3bd8e7cef252c33e
+37 http request PUT https://registry.npmjs.org/@types%2fasciimath-to-latex
+38 http 402 https://registry.npmjs.org/@types%2fasciimath-to-latex
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '49',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Sun, 15 Oct 2017 18:15:09 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-gru17123-GRU',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1508091309.020394,VS0,VE874' }
+40 verbose request invalidating /home/vitor/.npm/registry.npmjs.org/_40types_252fasciimath-to-latex on PUT
+41 error publish Failed PUT 402
+42 verbose stack Error: You must sign up for private packages : @types/asciimath-to-latex
+42 verbose stack     at makeError (/home/vitor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (/home/vitor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+42 verbose stack     at Request._callback (/home/vitor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+42 verbose stack     at Request.self.callback (/home/vitor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:187:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (/home/vitor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+42 verbose stack     at emitOne (events.js:96:13)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (/home/vitor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/node_modules/request/request.js:969:12)
+43 verbose statusCode 402
+44 verbose pkgid @types/asciimath-to-latex
+45 verbose cwd /media/vitor/000F8EFA0002DB72/Programming/projetos/utils/types/asciimath-to-latex
+46 error Linux 4.10.0-37-generic
+47 error argv "/home/vitor/.nvm/versions/node/v6.11.3/bin/node" "/home/vitor/.nvm/versions/node/v6.11.3/bin/npm" "publish"
+48 error node v6.11.3
+49 error npm  v3.10.10
+50 error code E402
+51 error You must sign up for private packages : @types/asciimath-to-latex
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
